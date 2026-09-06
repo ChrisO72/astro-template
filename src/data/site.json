@@ -1,5 +1,6 @@
 {
   "name": "Studio",
+  "favicon": "/favicon.svg",
   "navigation": [
     { "label": "Home", "href": "/" },
     { "label": "About", "href": "/about" },

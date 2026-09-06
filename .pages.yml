@@ -233,6 +233,11 @@ content:
         label: Site name
         type: string
         required: true
+      - name: favicon
+        label: Favicon
+        type: image
+        required: true
+        description: Upload the browser tab icon used across the site.
       - name: navigation
         label: Navigation links
         component: link
