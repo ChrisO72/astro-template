@@ -4,6 +4,21 @@ media:
   output: /uploads
   categories: [image]
 
+actions:
+  - name: deploy-preview
+    label: Deploy preview
+    workflow: deploy.yml
+    ref: current
+    confirm: false
+  - name: deploy
+    label: Deploy
+    workflow: deploy.yml
+    ref: current
+    confirm:
+      title: Deploy website?
+      message: This will update the client's live website.
+      button: Deploy
+
 # Reuse these field groups when adding pages.
 components:
   meta:
