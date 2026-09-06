@@ -1,6 +1,6 @@
 # Astro template
 
-Static Astro pages, Tailwind CSS, a React blog filter, and Pages CMS. Requires Node.js 22.12+ and npm.
+Static Astro pages, Tailwind CSS, a React blog filter, and Pages CMS. Requires Node.js 24+ and npm.
 
 ## Template structure
 
