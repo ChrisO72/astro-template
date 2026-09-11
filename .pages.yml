@@ -4,6 +4,14 @@ media:
   output: /uploads
   categories: [image]
 
+links:
+  - name: live-website
+    label: Live website
+    url: https://www.google.com
+  - name: preview-website
+    label: Preview website
+    url: https://www.google.com
+
 actions:
   - name: deploy-preview
     label: Deploy preview
